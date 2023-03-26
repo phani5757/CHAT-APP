@@ -18,7 +18,7 @@ import { getSender, getSenderFull } from "../helper/chat";
 import ProfileModal from "../components/ProfileModal";
 import ScrollableChat from "./ScrollableChat";
 import animation from "../assets/load_animation.json";
-const URL = "http://localhost:5000/";
+const URL = "https://chat-app-production-2f9e.up.railway.app/";
 let socket;
 let timeOutId;
 

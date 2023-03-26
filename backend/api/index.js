@@ -16,10 +16,6 @@ dotenv.config();
 
 connectDB();
 
-app.get("/", (req, res) => {
-  res.send("Hello Node");
-});
-
 app.use("/api/user", userRouter);
 app.use("/api/chat", chatRouter);
 app.use("/api/message", messageRouter);
